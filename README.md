@@ -2,9 +2,20 @@
 
 Provides the jade js api into a RequireJS environment.
 
-## Installing
+**Jade version**: 0.8.0
+
+## Installing (Bower)
 ```js
 bower install --save rjs-jade
+```
+
+## Configuration
+```js
+	requirejs.config({
+		'paths': {
+			'jade': 'lib/jade'
+		}
+	});
 ```
 
 ## Example 1
