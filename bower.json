@@ -1,0 +1,23 @@
+{
+  "name": "requirejs-jade",
+  "version": "0.0.1",
+  "homepage": "https://github.com:VictorQueiroz/rjs-jade.git",
+  "authors": [
+    "Victor Queiroz <victorcqueirozg@gmail.com>"
+  ],
+  "main": "jade.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
